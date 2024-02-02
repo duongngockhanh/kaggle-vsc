@@ -41,7 +41,7 @@ ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa
 <img src="assets/setup_config_github.png" alt="setup_config_github.png"/>
 
 ## 5. Set up at the local computer
-- Click **Open a Remote Window** in the bottom left corner of the VSC window.
+- Click **Open a Remote Window** at the bottom left corner of the VSC window.
 
 <img src="assets/open_a_remote_window.png" alt="open_a_remote_window.png"/>
 
@@ -60,7 +60,7 @@ In which, the content after @ is taken from the result of cell **start_ngrok**.
 
 <img src="assets/kaggle_working.png" alt="kaggle_working.png"/>
 
-- Complete!!!
+- Complete and start to code!!!
 
 ## References
 - [x] Hoàng Đông Phạm. [Introduction to ngrok](https://www.youtube.com/watch?v=HxHH8e4cOds). YouTube.
