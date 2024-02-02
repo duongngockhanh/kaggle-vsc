@@ -38,7 +38,7 @@ ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa
 
 <img src="assets/start_ssh.png" alt="start_ssh.png"/>
 <img src="assets/start_ngrok.png" alt="start_ngrok.png"/>
-<img src="assets/start_ssh.png" alt="setup_config_github.png"/>
+<img src="assets/setup_config_github.png" alt="setup_config_github.png"/>
 
 
 
