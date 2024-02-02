@@ -33,14 +33,34 @@ ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa
 - Create a **ngrok** account.
 - Afterwards, copy **the ngrok token** at [Getting Started/Your Authtoken](https://dashboard.ngrok.com/get-started/your-authtoken) and add it to **the Secrets section** of Kaggle.
 
-## 4. Connect from the local computer to the Kaggle server
+## 4. Set up at Kaggle
 - Run all cells in examples/kaggle_enfit23_setup.ipynb. The results like that:
 
 <img src="assets/start_ssh.png" alt="start_ssh.png"/>
 <img src="assets/start_ngrok.png" alt="start_ngrok.png"/>
 <img src="assets/setup_config_github.png" alt="setup_config_github.png"/>
 
+## 5. Set up at the local computer
+- Click **Open a Remote Window** in the bottom left corner of the VSC window.
 
+<img src="assets/open_a_remote_window.png" alt="open_a_remote_window.png"/>
+
+- Click **Connect to Host** and paste a content like that:
+
+```
+root@0.tcp.ngrok.io:18364
+```
+In which, the content after @ is taken from the result of cell **start_ngrok**.
+
+- Click **Continue**.
+
+- Click **Open**. 
+
+- Choose **/kaggle/working** and click **OK**.
+
+<img src="assets/kaggle_working.png" alt="kaggle_working.png"/>
+
+- Complete!!!
 
 ## References
 - [x] Hoàng Đông Phạm. [Introduction to ngrok](https://www.youtube.com/watch?v=HxHH8e4cOds). YouTube.
