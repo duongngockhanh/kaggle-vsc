@@ -34,6 +34,13 @@ ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa
 - Afterwards, copy **the ngrok token** at [Getting Started/Your Authtoken](https://dashboard.ngrok.com/get-started/your-authtoken) and add it to **the Secrets section** of Kaggle.
 
 ## 4. Connect from the local computer to the Kaggle server
+- Run all cells in examples/kaggle_enfit23_setup.ipynb. The results like that:
+
+<img src="assets/start_ssh.png" alt="start_ssh.png"/>
+<img src="assets/start_ngrok.png" alt="start_ngrok.png"/>
+<img src="assets/start_ssh.png" alt="setup_config_github.png"/>
+
+
 
 ## References
 - [x] Hoàng Đông Phạm. [Introduction to ngrok](https://www.youtube.com/watch?v=HxHH8e4cOds). YouTube.
