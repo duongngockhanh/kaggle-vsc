@@ -2,6 +2,8 @@
 
 Source: [github.com/dntai/resyslab_utils](https://github.com/dntai/resyslab_utils)
 
+Tutorial: [Manipulate code on Kaggle by Visual Studio Code](https://www.youtube.com/watch?v=u7xIdZdpmFk&t=984s)
+
 ## 1. GitHub configuration
 - Create a SSH key for GitHub by **the Ed25519 algorithm**. (_Note_: Setting the types of passwords is not necessary. So press **Enter** to skip them all.) 
 ```
